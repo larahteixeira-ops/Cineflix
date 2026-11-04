@@ -1,0 +1,14 @@
+digraph CineFlix {
+  graph [rankdir=TB, fontname="Helvetica", nodesep=0.8, ranksep=0.9, pad=0.4];
+  node  [shape=record, fontname="Helvetica", fontsize=11, style=filled, fillcolor="#FFF8E7", color="#333333"];
+  edge  [fontname="Helvetica", fontsize=10, color="#333333"];
+
+  Genero [label="{Genero|- id : int\l- nome : str\l- descricao : str\l|+ to_dict() : dict\l}"];
+  Filme [label="{Filme|- id : int\l- titulo : str\l- ano : int\l- nota : float\l- sinopse : str\l- genero_id : int\l|+ to_dict() : dict\l}"];
+  Usuario [label="{Usuario|- id : int\l- nome : str\l- email : str\l|+ to_dict() : dict\l}"];
+  Avaliacao [label="{Avaliacao|- id : int\l- usuario_id : int\l- filme_id : int\l- nota : int\l- comentario : str\l- data : str\l|+ to_dict() : dict\l}"];
+
+  Genero -> Filme [arrowhead=none, taillabel="1", headlabel="0..*", label="classifica"];
+  Avaliacao -> Usuario [arrowhead=none, taillabel="0..*", headlabel="1", label="feita por"];
+  Filme -> Avaliacao [arrowhead=none, taillabel="1", headlabel="0..*", label="recebe"];
+}

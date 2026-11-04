@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmes - CineFlix</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<header>
+  <h1>CineFlix</h1>
+  <nav>
+    <a href="../index.html">Home</a><a class="ativo" href="filmes.html">Filmes</a>
+    <a href="generos.html">Gêneros</a><a href="../php/cadastro.php">Cadastrar</a>
+  </nav>
+</header>
+
+<main class="secao">
+  <h2>Catálogo de Filmes</h2>
+  <input id="busca" class="busca" type="text" placeholder=" Pesquisar filme...">
+
+  <div class="filtros">
+    <button data-genero="Todos">Todos</button>
+    <button data-genero="Ação">Ação</button><button data-genero="Comédia">Comédia</button>
+    <button data-genero="Romance">Romance</button><button data-genero="Terror">Terror</button>
+    <button data-genero="Ficção científica">Ficção científica</button><button data-genero="Fantasia">Fantasia</button>
+    <button data-genero="Drama">Drama</button><button data-genero="Animação">Animação</button>
+  </div>
+
+  <div id="catalogo" class="cards">
+  <article class="card filme" data-genero="Ação"><div class="capa"><img src="../img/vingadores.jpg" alt="Vingadores: Ultimato"></div><h3>Vingadores: Ultimato</h3><p>Ação • 2019</p><span> 8.4</span></article>
+  <article class="card filme" data-genero="Ação"><div class="capa"><img src="../img/JOHN WICK.jpg" alt="John Wick"></div><h3>John Wick</h3><p>Ação • 2014</p><span> 7.4</span></article>
+  <article class="card filme" data-genero="Comédia"><div class="capa"><img src="../img/Branquelas.webp" alt="As Branquelas"></div><h3>As Branquelas</h3><p>Comédia • 2004</p><span> 7.1</span></article>
+  <article class="card filme" data-genero="Comédia"><div class="capa"><img src="../img/gentegrande.jpg" alt="Gente Grande"></div><h3>Gente Grande</h3><p>Comédia • 2010</p><span> 8.0</span></article>
+  <article class="card filme" data-genero="Romance"><div class="capa"><img src="../img/titanic.jpg" alt="Titanic"></div><h3>Titanic</h3><p>Romance • 1997</p><span> 8.0</span></article>
+  <article class="card filme" data-genero="Romance"><div class="capa"><img src="../img/lalaland.jpg" alt="La La Land"></div><h3>La La Land</h3><p>Romance • 2016</p><span> 8.0</span></article>
+  <article class="card filme" data-genero="Terror"><div class="capa"><img src="../img/panico.jpg" alt="Pânico"></div><h3>Pânico</h3><p>Terror • 1996</p><span> 7.4</span></article>
+  <article class="card filme" data-genero="Terror"><div class="capa"><img src="../img/it.jpg" alt="It: A Coisa"></div><h3>It: A Coisa</h3><p>Terror • 2017</p><span> 7.3</span></article>
+  <article class="card filme" data-genero="Ficção científica"><div class="capa"><img src="../img/interstellar.jpg" alt="Interestelar"></div><h3>Interestelar</h3><p>Ficção científica • 2014</p><span> 8.7</span></article>
+  <article class="card filme" data-genero="Ficção científica"><div class="capa"><img src="../img/The_Matrix_Poster.jpg" alt="Matrix"></div><h3>Matrix</h3><p>Ficção científica • 1999</p><span> 8.7</span></article>
+  <article class="card filme" data-genero="Fantasia"><div class="capa"><img src="../img/HarryPotter.jpg" alt="Harry Potter e a Pedra Filosofal"></div><h3>Harry Potter e a Pedra Filosofal</h3><p>Fantasia • 2001</p><span> 7.6</span></article>
+  <article class="card filme" data-genero="Fantasia"><div class="capa"><img src="../img/senhordosaneis.jpg" alt="O Senhor dos Anéis"></div><h3>O Senhor dos Anéis</h3><p>Fantasia • 2001</p><span> 8.8</span></article>
+  <article class="card filme" data-genero="Drama"><div class="capa"><img src="../img/forrest.jpg" alt="Forrest Gump"></div><h3>Forrest Gump</h3><p>Drama • 1994</p><span> 8.8</span></article>
+  <article class="card filme" data-genero="Drama"><div class="capa"><img src="../img/coringa.jpg" alt="Coringa"></div><h3>Coringa</h3><p>Drama • 2019</p><span> 8.3</span></article>
+  <article class="card filme" data-genero="Animação"><div class="capa"><img src="../img/Toystory.jpg" alt="Toy Story"></div><h3>Toy Story</h3><p>Animação • 1995</p><span> 8.3</span></article>
+  <article class="card filme" data-genero="Animação"><div class="capa"><img src="../img/shrek.jpg" alt="Shrek"></div><h3>Shrek</h3><p>Animação • 2001</p><span> 7.9</span></article>
+</div>
+</main>
+<footer><p> 2026 CineFlix - Larah Garcia </p></footer>
+<script src="../js/script.js"></script>
+</body>
+</html>
