@@ -1,4 +1,3 @@
--- CineFlix - dados iniciais (baseados no catálogo da AV2)
 PRAGMA foreign_keys = ON;
 
 INSERT INTO genero (nome, descricao) VALUES
