@@ -42,8 +42,9 @@ CineFlix/
 ├── backend/        config.py, database.py, models/, testar_conexao.py
 ├── database/       schema.sql, seed.sql
 ├── docs/           diagrama_classes.png / .svg / .dot
-├── frontend/       HTML/CSS/JS da AV2 (será integrado na entrega final)
-├── requirements.txt
+├── index.html
+├── script.js
+├── style.css
 └── README.md
 ```
 
