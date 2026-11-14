@@ -39,12 +39,12 @@ contagens e uma consulta com JOIN.
 
 ```
 CineFlix/
-├── backend/        config.py, database.py, models/, testar_conexao.py
+├── backend/        config.py, database.py, models/, testar_conexao.py, dao.py,  app.py
 ├── database/       schema.sql, seed.sql
 ├── docs/           diagrama_classes.png / .svg / .dot
 ├── index.html
-├── script.js
-├── style.css
+├── java/           script.js
+├── css/            style.css
 └── README.md
 ```
 
