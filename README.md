@@ -45,6 +45,7 @@ CineFlix/
 ├── index.html
 ├── java/           script.js
 ├── css/            style.css
+├── php/            cadastro.php, canexao.php
 └── README.md
 ```
 
